@@ -1,10 +1,31 @@
-@import url("styles/header.css");
+.cabecalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    
+    .cabecalho-meu-hamburguer{
+        width:24px;
+        height: 24px;
+        background-image: url("../img/Menu.svg");
 
-:root {
---cor-de-fundo: #EBECEE;
---branco: #FFFFFF;
-}
-
-body {
-background-color: var(--cor-de-fundo);
-}
+    }
+    .container {
+    display: flex;
+    align-items: center;
+    }
+    
+    .cabecalho-titulo {
+    display: none;
+    }
+    
+    @media screen and (min-width: 1024px) {
+    .cabecalho-titulo {
+    display: flex;
+    }
+    
+    .cabecalho-imagem-transparente {
+    display: none;
+    }
+    }
