@@ -21,11 +21,17 @@
 
     .card-1{
       display:flex;
+      justify-content: space-between;
+      margin: 0.5em;
     }
     .card-2{
-      
-    }
+      display:flex;
 
+    }
+   .botões{
+    display:felx;
+    justify-content: space-between;
+   }
       
     }
   
